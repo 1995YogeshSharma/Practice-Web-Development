@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>html5 blog</title>
+        <title>Add Post</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="stylesheet" href="css/normalize.css">
@@ -35,7 +35,7 @@
                     <input type="search" placeholder="Search Our Blog">
                     <input type="image" src="img/search.png" alt="search">
                 </form>
-               <div class="clearfix"></div>
+                <div class="clearfix"></div>
                 <nav id="sub-nav">
                     <ul> 
                         <li><a href="#">Web Development</a>
@@ -55,34 +55,33 @@
             </div>
         </aside>
         <section id="content">
-            <article>
-                <header>
-                    <h2>Facebook Launches Friend Tracking system</h2>
-                    <div class="meta">
-                        Posted by <strong>authname 1 Day Ago</strong>
-                        <span> [2 comments]</span>
-                    </div>
-                        <img src="img/blog1.jpg" alt="post1 image">
-                        <p>Extremity direction existence as dashwoods do up. Securing marianne led welcomed offended but offering six raptures. Conveying concluded newspaper rapturous oh at. Two indeed suffer saw beyond far former mrs remain. Occasional continuing possession we insensible an sentiments as is. Law but reasonably motionless principles she. Has six worse downs far blush rooms above stood. </p>
-                        <p>Him rendered may attended concerns jennings reserved now. Sympathize did now preference unpleasing mrs few. Mrs for hour game room want are fond dare. For detract charmed add talking age. Shy resolution instrument unreserved man few. She did open find pain some out. If we landlord stanhill mr whatever pleasure supplied concerns so. Exquisite by it admitting cordially september newspaper an. Acceptance middletons am it favourable. It it oh happen lovers afraid. </p>
-                        <a href="#" class="read-more">Read more</a>
+            <div class="add-form">
+                <h2>Add Post</h2>
+                <form>
+                    <p><label>Post Title: </label><input type="text">
+                    </p>
+                    <p><label>Category: </label>
+                        <select>
+                            <option value="">Web Development</option>
+                            <option value="">
+                                Design
+                            </option>
+                            <option value="">
+                                Gadgets
+                            </option>
+                        </select>
+                    </p>
+                    <p><label>Body: </label><textarea></textarea>
+                    </p>
+                    <p>
+                        <label>Select image: </label>
+                        <input type="file">
+                    </p>
+                    <button>Add Post</button>
+                </p>
                     
-                </header>
-            </article>
-            <article>
-                <header>
-                    <h2>Article 2 heading</h2>
-                    <div class="meta">
-                        Posted by <strong>authname 1 Day Ago</strong>
-                        <span> [2 comments]</span>
-                    </div>
-                        <img src="img/blog2.jpg" alt="post1 image">
-                        <p>Extremity direction existence as dashwoods do up. Securing marianne led welcomed offended but offering six raptures. Conveying concluded newspaper rapturous oh at. Two indeed suffer saw beyond far former mrs remain. Occasional continuing possession we insensible an sentiments as is. Law but reasonably motionless principles she. Has six worse downs far blush rooms above stood. </p>
-                        <p>Him rendered may attended concerns jennings reserved now. Sympathize did now preference unpleasing mrs few. Mrs for hour game room want are fond dare. For detract charmed add talking age. Shy resolution instrument unreserved man few. She did open find pain some out. If we landlord stanhill mr whatever pleasure supplied concerns so. Exquisite by it admitting cordially september newspaper an. Acceptance middletons am it favourable. It it oh happen lovers afraid. </p>
-                        <a href="#" class="read-more"> Read More</a>
-                    
-                </header>
-            </article>
+                </form>
+            </div>
         </section>
         <div class="clearfix">
         </div>

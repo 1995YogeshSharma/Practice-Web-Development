@@ -257,14 +257,126 @@ article .read-more:hover{
 article .meta span{
     float:right;
 }
+
+#comments{
+    margin-top:20px;
+}
+
+.comment-left{
+    float:left;
+    width:8%;
+
+}
+
+.comment-left img{
+    width:100%;
+}
+.comment-right{
+    width:90%;
+    float:right;
+}
+
+.comment-form{
+    margin-top:20px;
+    padding:5px 20px 10px 20px;
+    background:#333;
+    color:#fff;
+    border-radius: 10px;
+}
+
+.comment-form input[type="text"], .comment-form input[type="email"]{
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    height: 20px;
+    padding: 3px;
+    width: 97%;
+
+}
+.comment-form textarea{
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    padding: 3px;
+    width: 97%;
+}
+
+.comment-form button{
+    background: #222;
+}
+
+.add-form input[type="text"]{
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    height: 20px;
+    padding: 3px;
+    width: 97%;
+}
+
+.add-form select{
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    height: 30px;
+    padding: 3px;
+    width: 98%;
+}
+
+.add-form textarea{
+    border: #ccc 1px solid;
+    border-radius: 5px;
+    padding: 3px;
+    width: 97%;
+}
+
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 850px) {
+    #branding h1{
+        display:none;
+    }
+    #branding{
+        width:20%;
+    }
+    #main-nav{
+        width:80%;
+    }
+
+    #sidebar{
+        float:none;
+        width:100%;
+    }
+
+    #content{
+        float:none;
+        width:90%;
+    }
+    #main-footer .footer-left, #main-footer .footer-right{
+        float:none;
+        width:90%;
+    }
+
+
+    #main-footer .footer-nav{
+        float:none;
+        width:100%;
+    }
+
+    #main-footer .copy{
+        text-align: center;
+    }
 
 }
 
+@media only screen and (max-width: 500px){
+    #main-nav li{
+        float:none;
+        padding:3px 3px 0 3px;
+        font-size:13px;
+    }
+    #main-nav ul{
+        list-style:none;
+    }
+}
 @media print,
        (-o-min-device-pixel-ratio: 5/4),
        (-webkit-min-device-pixel-ratio: 1.25),
